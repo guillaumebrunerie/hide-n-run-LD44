@@ -2,7 +2,10 @@
 <html lang="en"> 
 <head> 
     <meta charset="UTF-8" />
-    <title>LD44</title>
+    <title>Hide’n’run</title>
+    <link rel="icon"
+          type="image/png"
+          href="assets/enemy.png">
     <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
     <style type="text/css">
         body {
@@ -16,11 +19,22 @@
           width: 800px;
           height: 700px;
           position: absolute;
-          top: 0;
-          bottom: 0;
+          top: 20px;
           left: 0;
           right: 0;
           border:5px solid black;
+        }
+        div {
+          font-size: 25pt;
+          text-align:center;
+          width: auto;
+          height: 1px;
+          position: absolute;
+          padding: 0;
+          margin:auto;
+          top: 750px;
+          left: 0;
+          right: 0;
         }
     </style>
 </head>
@@ -36,5 +50,6 @@
 <script type="text/javascript" src="lvl.js"></script>
 <script type="text/javascript" src="main.js"></script>
 
+<div><a href="https://ldjam.com/events/ludum-dare/44/hidenrun" target=_blank>Instructions/Controls</a></div>
 </body>
 </html>
