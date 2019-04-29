@@ -126,17 +126,17 @@ chooseLvlScene.postCreate = function(position)
 {
     this.txts = [];
     
-    this.txts[0] = this.add.text(160, 240, '1', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
-    this.txts[1] = this.add.text(160, 350, '2', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
-    this.txts[2] = this.add.text(160, 460, '3', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[0] = this.add.text(160, 240, '1', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[1] = this.add.text(160, 350, '2', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[2] = this.add.text(160, 460, '3', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
 
-    this.txts[3] = this.add.text(370, 240, '4', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
-    this.txts[4] = this.add.text(370, 350, '5', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
-    this.txts[5] = this.add.text(370, 460, '6', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[3] = this.add.text(370, 240, '4', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[4] = this.add.text(370, 350, '5', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[5] = this.add.text(370, 460, '6', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
 
-    this.txts[6] = this.add.text(580, 240, '7', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
-    this.txts[7] = this.add.text(580, 350, '8', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
-    this.txts[8] = this.add.text(580, 460, '9', { fontFamily: 'sans', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[6] = this.add.text(580, 240, '7', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[7] = this.add.text(580, 350, '8', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
+    this.txts[8] = this.add.text(580, 460, '9', { fontFamily: 'sans-serif', fontStyle: 'italic', fontSize: '75px', fill: '#000' });
 }
 
 pauseScene.onSpace = function (position)

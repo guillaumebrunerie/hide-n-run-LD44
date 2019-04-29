@@ -114,6 +114,7 @@ class LvlScene extends Phaser.Scene {
 
     loadLevel() {
         this.add.image(400-144, 350-64, 'background');
+        this.add.text(-144, -64, 'Level ' + (this.nlvl + 1), { fontFamily: 'sans-serif', fontSize: '32px', fill: '#FFF' });
 
         this.background = [];
         for (var i = 0; i < this.terrain.length; i++)
