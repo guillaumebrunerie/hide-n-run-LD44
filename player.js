@@ -7,6 +7,7 @@ class Player extends MovingSprite {
         this.nbblocks = {};
         this.nbblocks[BOX] = 0;
         this.nbblocks[WALL] = 0;
+        this.nbblocks[WIN] = 0;
         this.choice = BOX;
         this.speed = 5;
         this.isPlayer = true;
