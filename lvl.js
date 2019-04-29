@@ -49,12 +49,13 @@ class LvlScene extends Phaser.Scene {
             down:  KeyCodes.DOWN,
             left:  KeyCodes.LEFT,
             right: KeyCodes.RIGHT,
+            tab:   KeyCodes.TAB,
             space: KeyCodes.SPACE,
             ctrl:  KeyCodes.CTRL});
 
         var self = this;
         this.input.keyboard.on('keydown_ESC', esccb)
-        this.input.keyboard.on('keydown_ENTER', function() {self.entercb(self)})
+        this.input.keyboard.on('keydown_TAB', function() {self.entercb(self)})
 
         this.loadLevel();
     }

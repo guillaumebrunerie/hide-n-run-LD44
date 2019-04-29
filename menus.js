@@ -70,6 +70,15 @@ class MenuScene extends Phaser.Scene {
         this.pointerPosition = 0;
         if (this.postCreate)
             this.postCreate();
+
+        this.input.keyboard.addKeys({
+            up:    KeyCodes.UP,
+            down:  KeyCodes.DOWN,
+            left:  KeyCodes.LEFT,
+            right: KeyCodes.RIGHT,
+            tab:   KeyCodes.TAB,
+            space: KeyCodes.SPACE,
+            ctrl:  KeyCodes.CTRL});
     }
 }
 
