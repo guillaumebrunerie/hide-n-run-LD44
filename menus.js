@@ -25,6 +25,7 @@ class MenuScene extends Phaser.Scene {
         this.input.keyboard.on('keydown_LEFT', leftcb)
         this.input.keyboard.on('keydown_RIGHT', rightcb)
         this.input.keyboard.on('keydown_SPACE', function (event) {self.onSpace(self.pointerPosition)})
+        this.input.keyboard.on('keydown_ENTER', function (event) {self.onSpace(self.pointerPosition)})
 
         function downcb() {
             self.pointerPosition = self.pointerPosition + 1;
