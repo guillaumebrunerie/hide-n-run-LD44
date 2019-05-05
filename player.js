@@ -53,7 +53,7 @@ class Player extends MovingSprite {
 
             if (dx != 0 || dy != 0)
             {
-                if (cursors.ctrl.isDown)
+                if (cursors.ctrl.isDown || cursors.shift.isDown)
                     this.putBlock(dx, dy, this.choice);
                 else
                     this.startMoving(delta, dx, dy);

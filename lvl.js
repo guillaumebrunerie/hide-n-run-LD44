@@ -51,6 +51,7 @@ class LvlScene extends Phaser.Scene {
             right: KeyCodes.RIGHT,
             tab:   KeyCodes.TAB,
             space: KeyCodes.SPACE,
+            shift: KeyCodes.SHIFT,
             ctrl:  KeyCodes.CTRL});
 
         var self = this;
